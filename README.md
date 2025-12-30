@@ -28,24 +28,6 @@ Run `make help` for full documentation. Auto-detects:
 | macOS Intel | Via `brew install gcc` | No |
 | Linux | Native | No |
 
-## Benchmark Results (Metal GPU)
-
-| (n, N) | T_N(n) | Time |
-|--------|--------|------|
-| (3, 3) | 528 | <1ms |
-| (3, 4) | 8,160 | 10ms |
-| (4, 3) | 191,232 | 10ms |
-| (3, 5) | 179,520 | 75ms |
-| (5, 3) | 257,794,560 | ~min |
-| (6, 3) | 1,012,737,392,640 | ~hours (disk-chunked) |
-
-## Algorithm
-
-Both use S_n symmetry: enumerate **canonical** states (first=1, last=n), multiply by n!.
-
-This reduces state space dramatically:
-- n=4, level 3: 25,200 canonical vs 369,600 full states
-
 ### Metal GPU (`enumerate_metal`)
 - GPU-accelerated interlacing checks
 - Memory chunking: 500MB GPU batches
