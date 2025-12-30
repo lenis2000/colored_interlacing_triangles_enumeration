@@ -1,6 +1,7 @@
 # Enumeration of Colored Interlacing Triangles
 
-Code for enumerating colored interlacing n-triangles T_N(n).
+Code for enumerating colored interlacing n-triangles T_N(n). 
+See (ARXIV LINK TO BE INSERTED)
 
 ## Quick Start
 
