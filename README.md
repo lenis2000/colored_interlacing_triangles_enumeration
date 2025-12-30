@@ -1,8 +1,10 @@
 # Enumeration of Colored Interlacing Triangles
 
 Code for enumerating colored interlacing n-triangles T_N(n). 
-See (ARXIV LINK TO BE INSERTED) and also 
+See also 
 [https://github.com/lenis2000/colored_interlacing_triangles_q_enumeration](https://github.com/lenis2000/colored_interlacing_triangles_q_enumeration) for q-enumeration.
+
+arXiv paper: (TO BE INSTERTED)
 
 ## Quick Start
 
