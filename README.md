@@ -5,10 +5,10 @@ Code for enumerating colored interlacing n-triangles T_N(n).
 ## Quick Start
 
 ```bash
-make              # Build all available targets
-./enumerate 4 3   # T_3(4) = 191,232 (CPU)
+make                    # Build all available targets
+./enumerate 4 3         # T_3(4) = 191,232 (CPU)
 ./enumerate_metal 4 3   # Same, using GPU
-make help         # Show all options
+make help               # Show all options
 ```
 
 ## Files
