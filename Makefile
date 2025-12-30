@@ -186,7 +186,6 @@ endif
 clean:
 	rm -f enumerate enumerate_metal *.o
 	rm -rf checkpoints_*
-	rm -f triangles_*.txt
 
 # ============================================================================
 # Help
