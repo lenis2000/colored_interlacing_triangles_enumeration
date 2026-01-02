@@ -2,7 +2,8 @@
 
 Code for enumerating colored interlacing n-triangles T_N(n). 
 See also 
-[https://github.com/lenis2000/colored_interlacing_triangles_q_enumeration](https://github.com/lenis2000/colored_interlacing_triangles_q_enumeration) for q-enumeration.
+[https://github.com/lenis2000/colored_interlacing_triangles_q_enumeration](https://github.com/lenis2000/colored_interlacing_triangles_q_enumeration) for q-enumeration, and 
+[https://github.com/lenis2000/colored_interlacing_triangles_q_sampling](https://github.com/lenis2000/colored_interlacing_triangles_q_sampling) for random sampling.
 
 arXiv paper: (TO BE INSTERTED)
 
